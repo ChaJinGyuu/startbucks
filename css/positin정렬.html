@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 수직가운데 */
+        .container1{
+            position: relative;
+            width: 400px;
+            height: 250px;
+            background: royalblue;
+            margin-bottom: 50px;
+        }
+        .container1 .item1{
+            width: 100px;
+            height: 100px;
+            background: coral;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin:auto 0 ; /*margin : 상하 좌우*/
+        }
+        /* 수평가운데 */
+        .container2{
+            position: relative;
+            width: 400px;
+            height: 250px;
+            background: royalblue;
+            margin-bottom: 50px;
+        }
+        .container2 .item2{
+            width: 100px;
+            height: 100px;
+            background: coral;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin:0 auto ; /*margin : 상하 좌우*/
+        }
+        /* 정가운데 */
+        .container3{
+            position: relative;
+            width: 400px;
+            height: 250px;
+            background: royalblue;
+            margin-bottom: 50px;
+        }
+        .container3 .item3{
+            width: 100px;
+            height: 100px;
+            background: coral;
+            position: absolute;
+            top: 0;
+            bottom:0;
+            left: 0;
+            right: 0;
+            margin:auto ; /*margin : 상하 좌우*/
+        }
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <div class="item1">수직가운데</div>
+    </div>
+    <div class="container2">
+        <div class="item2">수평가운데</div>
+    </div>
+    <div class="container3">
+        <div class="item3">정가운데</div>
+    </div>
+</body>
+</html>
